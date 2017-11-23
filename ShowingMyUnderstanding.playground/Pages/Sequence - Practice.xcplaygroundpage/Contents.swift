@@ -30,9 +30,28 @@ import PlaygroundSupport
 
 // Create canvas
 let canvas = Canvas(width: 300, height: 300)
-
+canvas.drawRectangle(bottomLeftX: 0, bottomLeftY: 0, width: 300, height: 300)
 // No borders
 canvas.drawShapesWithBorders = false
+
+// green
+canvas.fillColor = Color(hue: 120, saturation: 80, brightness: 90, alpha: 100)
+canvas.drawEllipse(centreX: 85, centreY: 150, width: 100, height: 100, borderWidth: 1)
+
+// yellow
+canvas.fillColor = Color(hue: 60, saturation: 80, brightness: 90, alpha: 100)
+canvas.drawEllipse(centreX: 120, centreY: 150, width: 100, height: 100, borderWidth: 1)
+
+
+// red
+canvas.fillColor = Color.init(hue: 0, saturation: 100, brightness: 100, alpha: 100)
+canvas.drawEllipse(centreX: 160, centreY: 150, width: 100, height: 100, borderWidth: 1)
+
+
+// blue
+canvas.fillColor = Color.init(hue: 241, saturation: 100, brightness: 100, alpha: 100)
+canvas.drawEllipse(centreX: 200, centreY: 150, width: 100, height: 100, borderWidth: 1)
+
 
 // Thick lines
 canvas.defaultLineWidth = 5
