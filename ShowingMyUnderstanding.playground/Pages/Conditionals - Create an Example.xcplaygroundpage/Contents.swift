@@ -22,13 +22,19 @@ let canvas = Canvas(width: 300, height: 300)
 // Generate a random number
 let number = random(from: 0, toButNotIncluding: 4)
 
-if number == 1 {
+if number == 0 {
  canvas.drawRectangle(bottomLeftX: 50, bottomLeftY: 50, width: 50, height: 50)
-} else if number == 2 {
+} else if number == 1 {
     canvas.drawEllipse(centreX: 20, centreY: 20, width: 60, height: 60, borderWidth: 1)
 
-} else if number == 3 {
-    
+} else if number == 2 {
+  canvas.fillColor = Color.init(hue: 302, saturation: 37, brightness: 100, alpha: 50)
+    canvas.drawRectangle(bottomLeftX: 50, bottomLeftY: 50, width: 50, height: 50)
+} else if number == 2 {
+    canvas.fillColor = Color.init(hue: 302, saturation: 37, brightness: 100, alpha: 50)
+
+    canvas.drawEllipse(centreX: 20, centreY: 20, width: 60, height: 60, borderWidth: 1)
+
 }
 
 /*:
