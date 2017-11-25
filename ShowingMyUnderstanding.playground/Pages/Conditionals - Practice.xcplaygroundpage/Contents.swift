@@ -29,6 +29,11 @@ let canvas = Canvas(width: 300, height: 300)
 let number = random(from: 0, toButNotIncluding: 2)
 
 // Replace this comment and add your code below...
+if number == 0 {
+    canvas.drawRectangle(bottomLeftX: 50, bottomLeftY: 50, width: 50, height: 50)
+} else {
+    canvas.drawEllipse(centreX: 20, centreY: 20, width: 60, height: 60, borderWidth: 1)
+}
 
 /*:
  ## Template code

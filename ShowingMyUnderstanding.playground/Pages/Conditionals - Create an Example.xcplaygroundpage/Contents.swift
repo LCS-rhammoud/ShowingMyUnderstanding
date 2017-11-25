@@ -19,7 +19,17 @@ import PlaygroundSupport
 // Create canvas
 let canvas = Canvas(width: 300, height: 300)
 
-// Replace this command and add your code below...
+// Generate a random number
+let number = random(from: 0, toButNotIncluding: 4)
+
+if number == 1 {
+ canvas.drawRectangle(bottomLeftX: 50, bottomLeftY: 50, width: 50, height: 50)
+} else if number == 2 {
+    canvas.drawEllipse(centreX: 20, centreY: 20, width: 60, height: 60, borderWidth: 1)
+
+} else if number == 3 {
+    
+}
 
 /*:
  ## Template code

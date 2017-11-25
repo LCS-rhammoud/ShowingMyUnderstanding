@@ -69,6 +69,21 @@ canvas.drawEllipse(centreX: 160, centreY: 150, width: 100, height: 100, borderWi
 
 
 
+// Green Line
+canvas.fillColor = Color.init(hue: 120, saturation: 80, brightness: 90, alpha: 100)
+canvas.drawRectangle(centreX: 80, centreY: 60, width: 5, height: 90)
+
+// Yellow Line
+canvas.fillColor = Color.init(hue: 60, saturation: 80, brightness: 90, alpha: 100)
+canvas.drawRectangle(centreX: 120, centreY: 57, width: 5, height: 90)
+
+// Red Line
+canvas.fillColor = Color(hue: 0, saturation: 70, brightness: 100, alpha: 80)
+canvas.drawRectangle(centreX: 160, centreY: 60, width: 5, height: 90)
+
+// Blue Line
+canvas.fillColor = Color(hue: 240, saturation: 80, brightness: 90, alpha: 80)
+canvas.drawRectangle(centreX: 200, centreY: 60, width: 5, height: 90)
 
 
 
