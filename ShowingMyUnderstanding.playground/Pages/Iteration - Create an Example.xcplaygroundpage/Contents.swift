@@ -19,8 +19,19 @@ import PlaygroundSupport
 // Create canvas
 let canvas = Canvas(width: 300, height: 300)
 
-// Replace this comment and add your code below...
 
+for x in stride(from: 0, through: 300, by: 25)  {
+    
+    for y in stride(from: 0, through: 300, by: 25) {
+
+        canvas.drawRoundedRectangle(centreX: x, centreY: y, width: 2, height: 2, borderWidth: 1, xRadius: 1, yRadius: 1 )
+        
+        
+        
+        
+    }
+    
+}
 /*:
  ## Template code
  The code below is necessary to see results in the Assistant Editor at right. Please do not remove.
